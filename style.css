@@ -1,0 +1,27 @@
+body{
+	background-color: blue;
+	padding: 10px;
+}
+
+.image{
+	padding: 100px;
+}
+
+h3{
+	color: orange;
+}
+
+.carouselExampleCaptions{
+	padding: 0px;
+}
+.progress-bar{
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+.carousel slide{
+	padding: 500px;
+}
