@@ -207,7 +207,44 @@
     </div>
     </center>
     <br>
-<!--trail-->
+	
+	
+<!--Contact-->
+<center>
+<h3 class="heading">Contact</h3>
+<br>
+	<form action="https://postmail.invotes.com/send"
+    method="post" id="email_form">
+
+    <input style="height: 40px;width: 300px;" type="email" name="subject" placeholder="Mail id" />
+    <br>
+    <br>
+    <textarea style="height: 200px;width: 300px;" name="text" placeholder="Message"></textarea>
+    <br>
+    <br>
+    <input type="hidden" name="access_token" value="k558kcee6bk88n382ht9t2fr" />
+      
+    <input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
+    <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
+   
+    <input id="submit_form" type="submit" value="Send" />
+    
+</form>
+     
+
+<script>
+    var submitButton = document.getElementById("submit_form");
+    var form = document.getElementById("email_form");
+    form.addEventListener("submit", function (e) {
+        setTimeout(function() {
+            submitButton.value = "Sending...";
+            submitButton.disabled = true;
+        }, 1);
+    });
+</script> 
+
+</center>
+
 
 <!--Bootstrap links-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
