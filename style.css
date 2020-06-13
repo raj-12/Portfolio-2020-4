@@ -1,27 +1,68 @@
 body{
 	background-color: blue;
+	padding: 20px;
+	vertical-align: baseline;
+	justify-content: center;
+
+}
+
+	
+.profile-name{
+	background-color: pink;
 	padding: 10px;
+	text-align: center;
+	height: 660px;
+	margin-bottom: 10px;
 }
 
-.image{
-	padding: 100px;
-}
 
-h3{
-	color: orange;
-}
 
+
+.programming{
+	background-color: lightgreen;
+	border:2px solid green;
+	 
+	height: 710px;
+
+}
 .carouselExampleCaptions{
-	padding: 0px;
+
+	height: 30%;
+	width:  50%; 
+	margin: 10px;
+}
+.heading{
+	
+	background-color: white;
+}
+
+.progress{
+	
+	width:80%;
+    height: 30px;
 }
 .progress-bar{
-	padding-right: 10px;
-	padding-left: 10px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	width: 30px;
+
+}
+
+
+
+
+.progress-value {
+  animation: load 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  
 }
 
 
 .carousel slide{
 	padding: 500px;
+}
+
+.row{
+	height: 700px;
 }
